@@ -7,7 +7,7 @@ public class HomeWorkApp3 {
         //arrayValue(5,67);
         //arrayExtremum();
         //arrayBalance(new int[]{1, 23, 13, 14, 10, 12});
-        //arrayShift(new int[]{0,1,2,3,4}, 3);
+
 
     }
     public static void arrayReplacement(){
@@ -100,31 +100,5 @@ public class HomeWorkApp3 {
         }
         return result;
     }
-    public static void arrayShift (int[] array, int n){
-        int p = n;
-        if (n < array.length && n > 0){
-            for (int i = 0; i < array.length; i++){
 
-                int save = array[p];
-                System.out.println(save);
-                int z = p+n;
-                if (z >= array.length){z = z - array.length;}
-                array[z] = save;
-                p = p + n;
-                if (p >= array.length){p = p - array.length;}
-                System.out.println(p);
-            }
-            for (int j = 0; j < array.length; j++){System.out.println(array[j]);}
-
-        }
-        else {System.out.println("Значение n больше длины массива. Установите значение меньше " + array.length);}
-        int minus = 0 - array.length;
-        System.out.println(minus);
-        System.out.println(n);
-        if (n > minus && n<0){
-
-        }
-        else {System.out.println("Значение n меньше длины массива. Установите значение больше " + minus);}
-        if(n == 0){System.out.println("Значение n  не может ровняться 0");}
-    }
 }
