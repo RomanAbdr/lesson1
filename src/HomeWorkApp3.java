@@ -1,14 +1,7 @@
 public class HomeWorkApp3 {
     public static void main(String[] args) {
-       //arrayReplacement();
-       //arrayHundred();
-        //arrayMultiply();
-        //arrayDiagonal();
-        //arrayValue(5,67);
-        //arrayExtremum();
-        //arrayBalance(new int[]{1, 23, 13, 14, 10, 12});
-
-
+        arrayValue(5,67);
+        arrayBalance(new int[]{1, 23, 13, 14, 10, 12});
     }
     public static void arrayReplacement(){
         int[] array = {0,1,1,0,1,0,0,1,0,0,1,0,1,0,1,0,};
@@ -100,5 +93,4 @@ public class HomeWorkApp3 {
         }
         return result;
     }
-
 }
